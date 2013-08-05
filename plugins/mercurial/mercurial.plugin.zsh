@@ -1,19 +1,19 @@
 
 # Mercurial
-alias hgc='hg commit'
+alias hc='hg commit'
 alias hgb='hg branch'
 alias hgba='hg branches'
 alias hgbk='hg bookmarks'
 alias hgco='hg checkout'
-alias hgd='hg diff'
+alias hd='hg diff'
 alias hged='hg diffmerge'
 # pull and update
-alias hgi='hg incoming'
-alias hgl='hg pull -u'
-alias hglr='hg pull --rebase'
-alias hgo='hg outgoing'
-alias hgp='hg push'
-alias hgs='hg status'
+alias hin='hg incoming'
+alias hpu='hg pull -u'
+alias hpr='hg pull --rebase'
+alias hou='hg outgoing'
+alias hp='hg push'
+alias hs='hg status'
 # this is the 'git commit --amend' equivalent
 alias hgca='hg qimport -r tip ; hg qrefresh -e ; hg qfinish tip'
 
